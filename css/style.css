@@ -116,15 +116,23 @@ header{
 
 .logo{
     width: 100px;
+    padding-right: 10px;
+    border-right:2px solid lightgrey ;
+}
+
+.logo > img{
+    max-width: 100%;
 }
 
 .site_nav{
     width: 1200px;
-    
-    position: fixed;
-    top: 67px;
-    left: 159px;
-    z-index: 1;
+    text-align: center;
+}
+
+.site_nav > a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: lightgray;
 }
 
 
