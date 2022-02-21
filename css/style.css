@@ -1,3 +1,5 @@
+
+/* Common */
 *{
     margin: 0;
     padding: 0;
@@ -10,28 +12,115 @@
     clear: both;
 }
 
+
 .container{
     width: 1200px;
     margin: 20px auto;
 }
 
-/* Header */
-header{
+/* Debug header */
+
+.debug header{
     height: 100px;
     background-color: #E579E6;
+}
+
+.debug .logo{
+    height: 60%;
+    background-color: rgba(109, 3, 100, 0.438);
+}
+
+.debug .site_nav{
+    height: 32px;
+    background-color: rgb(168 0 0 / 21%);
+}
+
+/******* Debug main ****/
+
+/* Debug content_img */
+.debug .content_img{
+    height: 400px;
+    background-color: #E1D67A;
+}
+
+.debug .content_img >.img {
+     height: 323px;
+    background-color: #d1bc0179;
+}
+
+.debug .img > .text_img{
+    height: 40%;
+    background-color: rgb(226 0 0 / 23%);
+}
+
+/* Debug page_article */
+.debug .page_article{
+    height: 400px;
+    background-color: rgba(180, 36, 36, 0.432);
+}
+
+.debug .title_article{
+    height: 50px;
+    background-color: #ABCFE7;
+}
+
+.debug .content_article{
+    height: 350px;
+    background-color:  #ABCFE7;
+}
+
+.debug aside{
+    height: 350px;
+    background-color:  #ABCFE7;
+}
+
+.debug aside > .img_aside{
+    height: 35%;
+    background-color: #ff00d942;
+}
+
+.debug aside > .text_aside{
+    height: 55%;
+    background-color: #ff000042;
+}
+
+.debug .content{
+    height:350px ;
+    background-color: #ABCFE7;
+}
+
+.debug .content > .img_content_article{
+    height: 35%;
+    background-color: #ff00d942;
+}
+
+.debug .content > .text_content_article{
+    height: 55%;
+    background-color:  #ff000042;
+}
+
+/* Debug Footer */
+.debug footer{
+    height: 100px;
+    background-color:#8801FE;
+}
+
+.debug footer > .designed{
+    height: 80%;
+    background-color: #d4c0ff99;
+    }
+/*****************Header ****************/
+header{
     border-bottom: 20px solid white;
 }
 
 .logo{
     width: 100px;
-    height: 60%;
-    background-color: rgba(109, 3, 100, 0.438);
 }
 
 .site_nav{
     width: 1200px;
-    height: 32px;
-    background-color: rgb(168 0 0 / 21%);
+    
     position: fixed;
     top: 67px;
     left: 159px;
@@ -39,33 +128,26 @@ header{
 }
 
 
-/* Main */
+/************* Main ***************/
 main{
     height: 820px;
 }
 
 .content_img{
-    height: 400px;
-    background-color: #E1D67A;
     border-bottom: 20px solid white;
     position: relative;
 }
 
 .content_img >.img{
     width: 70%;
-    height: 323px;
-    background-color: #d1bc0179;
     position: absolute;
     top: 8%;
-    left: 15%;
-    
+    left: 15%;   
 }
 
 
 .img > .text_img{
     width: 50%;
-    height: 40%;
-    background-color: rgb(226 0 0 / 23%);
     position: absolute;
     bottom: 10%;
     left: 5%;
@@ -73,21 +155,9 @@ main{
 
 /* Article */
 
-.page_article{
-    height: 400px;
-    background-color: rgba(180, 36, 36, 0.432);
-}
-
-.title_article{
-    height: 50px;
-    background-color: #ABCFE7;
-}
-
 /* Content article */
 .content_article{
     width: 100%;
-    height: 350px;
-    background-color:  #ABCFE7;
     border-top: 10px solid #0086FF;
     border-bottom: 10px solid #0086FF;
 }
@@ -95,60 +165,44 @@ main{
 /* Aside */
 aside{
     width: 300px;
-    height: 350px;
-    background-color:  #ABCFE7;
     float: left;
 }
 
 aside > .img_aside{
     width: 90%;
-    height: 35%;
     margin: 10px auto;
-    background-color: #ff00d942;
 }
 
 aside > .text_aside{
     width: 90%;
-    height: 55%;
     margin: 10px auto;
-    background-color: #ff000042;
 }
 
 /* Content */
 .content{
-    background-color: #ABCFE7;
+    width: 600px;
+    float: left;
     border-left: 10px solid#0086FF;
     border-right: 10px solid #0086FF;
-    width: 600px;
-    height:350px ;
-    float: left;
 }
 
 .content > .img_content_article{
     width: 95%;
-    height: 35%;
     margin: 10px auto;
-    background-color: #ff00d942;
 }
 
 .content > .text_content_article{
     width: 95%;
-    height: 55%;
     margin: 10px auto;
-    background-color:  #ff000042;
 }
 
-/* Footer */
+/************* Footer ***********/
 footer{
-    height: 100px;
-    background-color:#8801FE;
     border-top: 10px solid white;
 }
 
 footer > .designed{
     width: 10%;
-    height: 80%;
-    background-color: #d4c0ff99;
     margin: 8px auto;
 }
 
