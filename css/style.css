@@ -18,6 +18,15 @@
     margin: 20px auto;
 }
 
+ p, h3{
+    color: #969696;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+
 /* Debug header */
 
 .debug header{
@@ -122,13 +131,13 @@ header{
 
 .site_nav{
     width: 1200px;
-    text-align: center;
+    margin: 20px 0;
 }
 
 .site_nav > a{
     margin: 0 10px;
     text-decoration: none;
-    color: lightgray;
+    color:#bbbaba;
 }
 
 
@@ -155,7 +164,14 @@ header{
     left: 5%;
 }
 
-/* Article */
+.text_img > p{
+    color: white;
+}
+/******** Article *******/
+
+.title_article > h1{
+    font-size: 40px;
+}
 
 /* Content article */
 .content_article{
@@ -187,6 +203,9 @@ aside > .text_aside{
     margin: 10px auto;
 }
 
+.additional aside{
+    margin: 20px 12px;
+}
 /* Content */
 .content{
     width: 50%;
